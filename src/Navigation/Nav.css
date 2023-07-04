@@ -1,0 +1,35 @@
+.nav_container {
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.test_name_chld {
+  width: 20%;
+  text-align: center;
+  font-weight: bold;
+}
+.parent_li_chld {
+    text-align: center;
+  width: 60%;
+  list-style: none;
+}
+.parent_li_chld > li {
+  display: inline-block;
+  padding: 0 15px;
+  cursor: pointer;
+}
+.parent_li_chld > li:hover{
+    color: #a749ff;
+}
+.parent_icon_chld{
+    width: 20%;
+    font-size: 20px;
+
+}
+.parent_icon_chld>*{
+    padding: 0 12px;
+}
